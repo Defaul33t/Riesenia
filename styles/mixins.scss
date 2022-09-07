@@ -1,0 +1,19 @@
+@mixin cta_button($max-width, $height, $fontSize: 14px) {
+  width: 100%;
+  max-width: $max-width;
+  height: $height;
+  display: block;
+  border: none;
+  border-radius: $border_radius;
+  background: $cta_color;
+  font-size: $fontSize;
+  font-weight: 800;
+  color: white;
+  -webkit-appearance: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    background: #092263;
+  }
+}
